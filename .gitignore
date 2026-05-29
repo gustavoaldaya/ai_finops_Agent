@@ -1,0 +1,26 @@
+# Secretos / config local (ADR-2026-05-18: .env NUNCA se commitea)
+.env
+.env.*
+!.env.template
+local.settings.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Azure Functions build
+bin/
+obj/
+.python_packages/
+.func/
+
+# Artefactos / paquetes de despliegue
+*.zip
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
